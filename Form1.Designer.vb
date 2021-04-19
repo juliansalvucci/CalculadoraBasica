@@ -68,11 +68,13 @@ Partial Class Form1
         '
         'lblPantalla
         '
-        Me.lblPantalla.BackColor = System.Drawing.Color.Azure
-        Me.lblPantalla.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblPantalla.BackColor = System.Drawing.Color.White
+        Me.lblPantalla.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblPantalla.Font = New System.Drawing.Font("Arial Narrow", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblPantalla.ForeColor = System.Drawing.Color.Red
         Me.lblPantalla.Location = New System.Drawing.Point(12, 9)
         Me.lblPantalla.Name = "lblPantalla"
-        Me.lblPantalla.Size = New System.Drawing.Size(314, 49)
+        Me.lblPantalla.Size = New System.Drawing.Size(264, 49)
         Me.lblPantalla.TabIndex = 1
         '
         'btn1
@@ -80,6 +82,7 @@ Partial Class Form1
         Me.btn1.BackColor = System.Drawing.Color.White
         Me.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn1.Location = New System.Drawing.Point(15, 101)
         Me.btn1.Name = "btn1"
         Me.btn1.Size = New System.Drawing.Size(44, 23)
@@ -188,6 +191,7 @@ Partial Class Form1
         Me.btn2.BackColor = System.Drawing.Color.White
         Me.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn2.Location = New System.Drawing.Point(65, 101)
         Me.btn2.Name = "btn2"
         Me.btn2.Size = New System.Drawing.Size(44, 23)
@@ -200,6 +204,7 @@ Partial Class Form1
         Me.btn6.BackColor = System.Drawing.Color.White
         Me.btn6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn6.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn6.Location = New System.Drawing.Point(114, 130)
         Me.btn6.Name = "btn6"
         Me.btn6.Size = New System.Drawing.Size(44, 23)
@@ -212,6 +217,7 @@ Partial Class Form1
         Me.btn9.BackColor = System.Drawing.Color.White
         Me.btn9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn9.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn9.Location = New System.Drawing.Point(114, 161)
         Me.btn9.Name = "btn9"
         Me.btn9.Size = New System.Drawing.Size(44, 23)
@@ -224,6 +230,7 @@ Partial Class Form1
         Me.btn8.BackColor = System.Drawing.Color.White
         Me.btn8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn8.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn8.Location = New System.Drawing.Point(65, 161)
         Me.btn8.Name = "btn8"
         Me.btn8.Size = New System.Drawing.Size(44, 23)
@@ -236,6 +243,7 @@ Partial Class Form1
         Me.btn7.BackColor = System.Drawing.Color.White
         Me.btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn7.Location = New System.Drawing.Point(15, 161)
         Me.btn7.Name = "btn7"
         Me.btn7.Size = New System.Drawing.Size(44, 23)
@@ -248,6 +256,7 @@ Partial Class Form1
         Me.btn5.BackColor = System.Drawing.Color.White
         Me.btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn5.Location = New System.Drawing.Point(65, 130)
         Me.btn5.Name = "btn5"
         Me.btn5.Size = New System.Drawing.Size(44, 23)
@@ -260,6 +269,7 @@ Partial Class Form1
         Me.btn4.BackColor = System.Drawing.Color.White
         Me.btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn4.Location = New System.Drawing.Point(15, 130)
         Me.btn4.Name = "btn4"
         Me.btn4.Size = New System.Drawing.Size(44, 23)
@@ -272,6 +282,7 @@ Partial Class Form1
         Me.btn3.BackColor = System.Drawing.Color.White
         Me.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn3.Location = New System.Drawing.Point(114, 101)
         Me.btn3.Name = "btn3"
         Me.btn3.Size = New System.Drawing.Size(44, 23)
@@ -284,6 +295,7 @@ Partial Class Form1
         Me.btn0.BackColor = System.Drawing.Color.White
         Me.btn0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn0.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn0.Location = New System.Drawing.Point(65, 190)
         Me.btn0.Name = "btn0"
         Me.btn0.Size = New System.Drawing.Size(44, 23)
@@ -296,11 +308,12 @@ Partial Class Form1
         Me.btnBorrar.BackColor = System.Drawing.Color.White
         Me.btnBorrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnBorrar.Location = New System.Drawing.Point(146, 72)
+        Me.btnBorrar.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnBorrar.Location = New System.Drawing.Point(115, 72)
         Me.btnBorrar.Name = "btnBorrar"
-        Me.btnBorrar.Size = New System.Drawing.Size(61, 23)
+        Me.btnBorrar.Size = New System.Drawing.Size(43, 23)
         Me.btnBorrar.TabIndex = 12
-        Me.btnBorrar.Text = "borrar"
+        Me.btnBorrar.Text = "DEL"
         Me.btnBorrar.UseVisualStyleBackColor = False
         '
         'btnApagar
@@ -308,11 +321,12 @@ Partial Class Form1
         Me.btnApagar.BackColor = System.Drawing.Color.White
         Me.btnApagar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnApagar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnApagar.Location = New System.Drawing.Point(12, 72)
+        Me.btnApagar.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnApagar.Location = New System.Drawing.Point(15, 72)
         Me.btnApagar.Name = "btnApagar"
-        Me.btnApagar.Size = New System.Drawing.Size(61, 23)
+        Me.btnApagar.Size = New System.Drawing.Size(44, 23)
         Me.btnApagar.TabIndex = 13
-        Me.btnApagar.Text = "Apagar"
+        Me.btnApagar.Text = "OFF"
         Me.btnApagar.UseVisualStyleBackColor = False
         '
         'btnReiniciar
@@ -320,11 +334,12 @@ Partial Class Form1
         Me.btnReiniciar.BackColor = System.Drawing.Color.White
         Me.btnReiniciar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnReiniciar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnReiniciar.Location = New System.Drawing.Point(79, 72)
+        Me.btnReiniciar.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnReiniciar.Location = New System.Drawing.Point(65, 72)
         Me.btnReiniciar.Name = "btnReiniciar"
-        Me.btnReiniciar.Size = New System.Drawing.Size(61, 23)
+        Me.btnReiniciar.Size = New System.Drawing.Size(44, 23)
         Me.btnReiniciar.TabIndex = 14
-        Me.btnReiniciar.Text = "Reiniciar"
+        Me.btnReiniciar.Text = "AC"
         Me.btnReiniciar.UseVisualStyleBackColor = False
         '
         'btn1x
@@ -332,6 +347,7 @@ Partial Class Form1
         Me.btn1x.BackColor = System.Drawing.Color.White
         Me.btn1x.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btn1x.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn1x.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btn1x.Location = New System.Drawing.Point(15, 190)
         Me.btn1x.Name = "btn1x"
         Me.btn1x.Size = New System.Drawing.Size(44, 23)
@@ -344,7 +360,8 @@ Partial Class Form1
         Me.btnSigno.BackColor = System.Drawing.Color.White
         Me.btnSigno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSigno.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnSigno.Location = New System.Drawing.Point(115, 190)
+        Me.btnSigno.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnSigno.Location = New System.Drawing.Point(114, 190)
         Me.btnSigno.Name = "btnSigno"
         Me.btnSigno.Size = New System.Drawing.Size(44, 23)
         Me.btnSigno.TabIndex = 16
@@ -356,7 +373,8 @@ Partial Class Form1
         Me.btnSumar.BackColor = System.Drawing.Color.White
         Me.btnSumar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSumar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnSumar.Location = New System.Drawing.Point(232, 101)
+        Me.btnSumar.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnSumar.Location = New System.Drawing.Point(182, 101)
         Me.btnSumar.Name = "btnSumar"
         Me.btnSumar.Size = New System.Drawing.Size(44, 23)
         Me.btnSumar.TabIndex = 17
@@ -368,7 +386,8 @@ Partial Class Form1
         Me.btnRestar.BackColor = System.Drawing.Color.White
         Me.btnRestar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnRestar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnRestar.Location = New System.Drawing.Point(232, 130)
+        Me.btnRestar.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnRestar.Location = New System.Drawing.Point(182, 130)
         Me.btnRestar.Name = "btnRestar"
         Me.btnRestar.Size = New System.Drawing.Size(44, 23)
         Me.btnRestar.TabIndex = 18
@@ -380,7 +399,8 @@ Partial Class Form1
         Me.btnMultiplicar.BackColor = System.Drawing.Color.White
         Me.btnMultiplicar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnMultiplicar.Location = New System.Drawing.Point(232, 161)
+        Me.btnMultiplicar.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnMultiplicar.Location = New System.Drawing.Point(182, 161)
         Me.btnMultiplicar.Name = "btnMultiplicar"
         Me.btnMultiplicar.Size = New System.Drawing.Size(44, 23)
         Me.btnMultiplicar.TabIndex = 19
@@ -392,7 +412,8 @@ Partial Class Form1
         Me.btnDividir.BackColor = System.Drawing.Color.White
         Me.btnDividir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnDividir.Location = New System.Drawing.Point(232, 190)
+        Me.btnDividir.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnDividir.Location = New System.Drawing.Point(182, 190)
         Me.btnDividir.Name = "btnDividir"
         Me.btnDividir.Size = New System.Drawing.Size(44, 23)
         Me.btnDividir.TabIndex = 20
@@ -404,7 +425,8 @@ Partial Class Form1
         Me.btnPotencia.BackColor = System.Drawing.Color.White
         Me.btnPotencia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnPotencia.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnPotencia.Location = New System.Drawing.Point(282, 72)
+        Me.btnPotencia.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnPotencia.Location = New System.Drawing.Point(232, 72)
         Me.btnPotencia.Name = "btnPotencia"
         Me.btnPotencia.Size = New System.Drawing.Size(44, 23)
         Me.btnPotencia.TabIndex = 21
@@ -416,7 +438,8 @@ Partial Class Form1
         Me.btnRaiz.BackColor = System.Drawing.Color.White
         Me.btnRaiz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnRaiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnRaiz.Location = New System.Drawing.Point(282, 101)
+        Me.btnRaiz.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnRaiz.Location = New System.Drawing.Point(232, 101)
         Me.btnRaiz.Name = "btnRaiz"
         Me.btnRaiz.Size = New System.Drawing.Size(44, 23)
         Me.btnRaiz.TabIndex = 22
@@ -428,7 +451,8 @@ Partial Class Form1
         Me.btnPorcentaje.BackColor = System.Drawing.Color.White
         Me.btnPorcentaje.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnPorcentaje.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnPorcentaje.Location = New System.Drawing.Point(232, 72)
+        Me.btnPorcentaje.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnPorcentaje.Location = New System.Drawing.Point(182, 72)
         Me.btnPorcentaje.Name = "btnPorcentaje"
         Me.btnPorcentaje.Size = New System.Drawing.Size(44, 23)
         Me.btnPorcentaje.TabIndex = 23
@@ -440,9 +464,10 @@ Partial Class Form1
         Me.btnCalcular.BackColor = System.Drawing.Color.White
         Me.btnCalcular.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnCalcular.Location = New System.Drawing.Point(282, 130)
+        Me.btnCalcular.Font = New System.Drawing.Font("Segoe UI Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnCalcular.Location = New System.Drawing.Point(232, 161)
         Me.btnCalcular.Name = "btnCalcular"
-        Me.btnCalcular.Size = New System.Drawing.Size(44, 83)
+        Me.btnCalcular.Size = New System.Drawing.Size(44, 52)
         Me.btnCalcular.TabIndex = 24
         Me.btnCalcular.Text = "="
         Me.btnCalcular.UseVisualStyleBackColor = False
@@ -452,19 +477,20 @@ Partial Class Form1
         Me.coma.BackColor = System.Drawing.Color.White
         Me.coma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.coma.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.coma.Location = New System.Drawing.Point(182, 111)
+        Me.coma.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.coma.Location = New System.Drawing.Point(232, 130)
         Me.coma.Name = "coma"
         Me.coma.Size = New System.Drawing.Size(44, 23)
         Me.coma.TabIndex = 25
-        Me.coma.Text = ","
+        Me.coma.Text = "."
         Me.coma.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.Highlight
-        Me.ClientSize = New System.Drawing.Size(333, 217)
+        Me.BackColor = System.Drawing.Color.Red
+        Me.ClientSize = New System.Drawing.Size(288, 220)
         Me.Controls.Add(Me.coma)
         Me.Controls.Add(Me.btnCalcular)
         Me.Controls.Add(Me.btnPorcentaje)
@@ -491,6 +517,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btn1)
         Me.Controls.Add(Me.lblPantalla)
         Me.Controls.Add(Me.Label1)
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
